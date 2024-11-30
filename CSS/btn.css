@@ -1,0 +1,33 @@
+/* btn_hover2 button effect */
+
+.btn_hover2 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1.5px solid #d12bec;
+    color: #fff;
+    z-index: 1;
+    letter-spacing: 0.8px;
+}
+
+.btn_hover2::before {
+    content: '';
+    border-radius: 50px;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    transition: all 0.3s ease-in;
+    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+
+}
+
+.btn_hover2:hover::before {
+    width: 100%;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #ff7527 0%, #fabf28 100%);
+}
