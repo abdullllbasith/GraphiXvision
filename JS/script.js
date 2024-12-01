@@ -95,7 +95,7 @@ $('.sliderlogo').slick({
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 infinite: true,
-                autoplay: false,
+                autoplay: true,
             }
         },
         {
@@ -113,7 +113,7 @@ $('.sliderlogo').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
-                autoplay: false,
+                autoplay: true,
             }
         },
         {
@@ -122,7 +122,7 @@ $('.sliderlogo').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                autoplay: false,
+                autoplay: true,
             }
         }
     ]
@@ -322,6 +322,8 @@ function scrollToTop() {
 }
 
 //
+
+
 
 
 
