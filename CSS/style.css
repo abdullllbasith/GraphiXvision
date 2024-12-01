@@ -4040,7 +4040,7 @@ div .h-t {
     }
 
     .pricing-card h6 {
-        font-size: 10px;
+        font-size: 6px;
     }
 
     .pricing-card h2 {
@@ -4061,7 +4061,8 @@ div .h-t {
 
     .pricing-card div.pr-cd{
         width: 180px;
-        height: 400px !important;
+        height: 300px !important;
+        padding: 50px;
     }
 
     .pricing-card div:nth-child(3) {
