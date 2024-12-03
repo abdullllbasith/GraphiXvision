@@ -4854,7 +4854,7 @@ footer form button:hover {
     padding: 0 !important;
 }
 
-.foot-cont{
+.foot-cont {
     position: relative;
     bottom: -20px;
 }
@@ -4986,7 +4986,8 @@ footer form button:hover {
     ul.foot-lng i {
         font-size: 12px;
     }
-    .foot-cont span i{
+
+    .foot-cont span i {
         font-size: 15px;
         bottom: 20px;
         position: relative;
@@ -5036,7 +5037,7 @@ footer form button:hover {
         width: 130px;
         padding: 5px;
     }
-    
+
     footer form {
         border-radius: 50px;
         border: 1px solid #6d2f8a;
@@ -5065,38 +5066,41 @@ footer form button:hover {
         font-size: 14px;
     }
 
-    .foot-cont p{
+    .foot-cont p {
         padding: 0 60px 0 0;
         font-size: 13px;
     }
 
-    .qck-lnk h4, .gt-cnct h4{
+    .qck-lnk h4,
+    .gt-cnct h4 {
         font-size: 18px;
     }
 
-    .qck-lnk li a, .qck-lnk2 li a{
+    .qck-lnk li a,
+    .qck-lnk2 li a {
         font-size: 13px;
     }
 
-    .gt-cnct li a, .gt-cnct li a i{
+    .gt-cnct li a,
+    .gt-cnct li a i {
         font-size: 13px;
     }
 
-    .qck-lnk{
+    .qck-lnk {
         white-space: nowrap;
     }
 
-    div.qck-lnk2 ul{
+    div.qck-lnk2 ul {
         position: relative;
         bottom: 7px;
     }
 
-    .foot-cont{
+    .foot-cont {
         position: relative;
         bottom: -20px;
     }
 
-    .foot-cont span i{
+    .foot-cont span i {
         font-size: 15px;
     }
 
