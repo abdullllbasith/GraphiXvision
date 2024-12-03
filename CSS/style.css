@@ -27,7 +27,7 @@ body {
 html,
 body {
     overflow-x: hidden;
-    
+
 }
 
 [data-aos] {
@@ -1511,7 +1511,7 @@ div hr.ab-hr1 {
 
 
     div .about-hr h6 {
-        font-size: 13px;
+        font-size: 10px;
     }
 
     div .about-hr h5 {
@@ -2596,7 +2596,7 @@ div .ex-h4 h4 {
 
     }
 
-    .ex-crd-padd .ex-card{
+    .ex-crd-padd .ex-card {
         height: 170px;
         width: 100%;
     }
@@ -2672,6 +2672,7 @@ div .ex-h4 h4 {
         right: 0;
         justify-content: center;
     }
+
     .exp-center div.exp-btn {
         /* position: relative; */
         /* top: 5px; */
@@ -2700,11 +2701,11 @@ div .ex-h4 h4 {
         top: 100px;
     }
 
-    .experience-hr h6{
+    .experience-hr h6 {
         font-size: 13px;
     }
 
-    
+
     .experience div.responsive_ex {
         display: block;
     }
@@ -2961,7 +2962,7 @@ div .ex-h4 h4 {
 }
 
 
-@media (min-width: 401px) and (max-width: 600px){
+@media (min-width: 401px) and (max-width: 600px) {
     .work .wrk-h .ex-h5 h5 {
         font-size: 18px;
     }
@@ -3070,7 +3071,7 @@ div .ex-h4 h4 {
 
 
 
-@media (min-width: 601px) and (max-width: 800px){
+@media (min-width: 601px) and (max-width: 800px) {
 
     .work .wrk-h .ex-h5 h5 {
         font-size: 20px;
@@ -3105,6 +3106,7 @@ div .ex-h4 h4 {
     .work-line h4 {
         font-size: 15px;
     }
+
     .work-line div:first-child {
         top: -66px;
         left: -50px;
@@ -3113,7 +3115,7 @@ div .ex-h4 h4 {
         min-height: 80px;
         display: flex;
         /* padding-left: 50px; */
-        
+
     }
 
     .work-line div:nth-child(2) {
@@ -3155,7 +3157,7 @@ div .ex-h4 h4 {
 }
 
 
-@media (min-width: 801px) and (max-width: 900px){
+@media (min-width: 801px) and (max-width: 900px) {
     .work .wrk-h .ex-h5 h5 {
         font-size: 20px;
     }
@@ -3189,6 +3191,7 @@ div .ex-h4 h4 {
     .work-line h4 {
         font-size: 15px;
     }
+
     .work-line div:first-child {
         top: -66px;
         left: -50px;
@@ -3197,7 +3200,7 @@ div .ex-h4 h4 {
         min-height: 80px;
         display: flex;
         /* padding-left: 50px; */
-        
+
     }
 
     .work-line div:nth-child(2) {
@@ -3239,7 +3242,7 @@ div .ex-h4 h4 {
 }
 
 
-@media (min-width: 901px) and (max-width: 1354px){
+@media (min-width: 901px) and (max-width: 1354px) {
     .work .wrk-h .ex-h5 h5 {
         font-size: 20px;
     }
@@ -3282,7 +3285,7 @@ div .ex-h4 h4 {
         min-height: 80px;
         display: flex;
         /* padding-left: 50px; */
-        
+
     }
 
     .work-line div:nth-child(2) {
@@ -3504,11 +3507,11 @@ div .h-t {
         padding: 0 50px 0 50px;
     }
 
-    .team div.h-t{
+    .team div.h-t {
         width: 100%;
-        left:0 !important;
+        left: 0 !important;
         right: 0 !important;
-        
+
 
     }
 
@@ -3540,7 +3543,7 @@ div .h-t {
         text-align: center;
     }
 
-    div .mbr-btn{
+    div .mbr-btn {
         width: 100%;
         justify-content: center !important;
     }
@@ -3559,6 +3562,7 @@ div .h-t {
         padding: 0 50px 0 50px;
 
     }
+
     /* Slider */
 
 
@@ -3658,7 +3662,7 @@ div .h-t {
 
     }
 
-    .team-btn div.t-padd{
+    .team-btn div.t-padd {
         display: block;
         left: 0 !important;
         right: 0 !important;
@@ -3675,7 +3679,7 @@ div .h-t {
 
 }
 
-@media (min-width: 601px) and (max-width: 1024px){
+@media (min-width: 601px) and (max-width: 1024px) {
     .team-slider {
         overflow: hidden;
         display: flex;
@@ -3702,11 +3706,11 @@ div .h-t {
         padding: 0 50px 0 50px;
     }
 
-    .team div.h-t{
+    .team div.h-t {
         width: 100%;
-        left:0 !important;
+        left: 0 !important;
         right: 0 !important;
-        
+
 
     }
 
@@ -3738,7 +3742,7 @@ div .h-t {
         text-align: center;
     }
 
-    div .mbr-btn{
+    div .mbr-btn {
         width: 100%;
         justify-content: center !important;
     }
@@ -3768,13 +3772,36 @@ div .h-t {
         transform: translate(-50%, -50%);
     }
 
-    .team-btn div.t-padd{
+    .team-btn div.t-padd {
         display: block;
         left: 0 !important;
         right: 0 !important;
     }
 
 
+}
+
+
+@media (min-width: 1024px) and (max-width: 1312px) {
+    .team-slider {
+        overflow: hidden;
+        display: flex;
+
+    }
+
+    .team-img {
+        min-width: 120px;
+        object-fit: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        top: 10px;
+    }
+
+    .team-img img {
+        width: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 /* 2.0 End of Team Section */
@@ -3958,10 +3985,10 @@ div .h-t {
 
     div.pricing-card {
         position: relative;
-        display: block;
+        flex-direction: column !important;
         /* left: 10px; */
         width: 100%;
-        padding: 0 50px 0 50px;
+        padding: 0 65px 0 65px;
         gap: 0;
     }
 
@@ -4009,9 +4036,74 @@ div .h-t {
     } */
 }
 
-@media (min-width: 601px) and (max-width: 1024px){
-    .prc-top{
-        padding:0 50px 0 50px;
+@media (min-width: 601px) and (max-width: 666px) {
+    .pricing-hr {
+        right: -70px;
+        top: 150px;
+    }
+
+    .pricing-hr h6 {
+        font-size: 10px;
+        letter-spacing: 3.72px;
+        text-transform: uppercase;
+    }
+
+    .p-prc {
+        padding: 0 50px;
+    }
+
+
+    div.pricing-card {
+        position: relative;
+        flex-direction: column !important;
+        width: 100%;
+        padding: 0 150px;
+        gap: 0;
+    }
+
+    .pricing-card h3 {
+        font-size: 20px;
+    }
+
+    .pricing-card h6 {
+        font-size: 16px;
+    }
+
+    .pricing-card h2 {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .pricing-card .btn_hover1 {
+        padding: 15px 30px;
+        width: 121.6px;
+    }
+
+    .pricing-card a.btn_hover1 {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+
+    .pricing-card div:nth-child(2) {
+        transform: scale(1.11);
+        z-index: 2;
+        /* background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%); */
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.8);
+        background-color: #4e1451;
+        transition: all 0.8s ease;
+    }
+
+    .pricing-card div:nth-child(2):hover {
+        transform: scale(1.08);
+        z-index: 2;
+        background-color: #600b57;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media (min-width: 667px) and (max-width: 1024px) {
+    .prc-top {
+        padding: 0 50px 0 50px;
     }
 
     .pricing-hr {
@@ -4040,7 +4132,7 @@ div .h-t {
     }
 
     .pricing-card h6 {
-        font-size: 6px;
+        font-size: 9px;
     }
 
     .pricing-card h2 {
@@ -4053,13 +4145,14 @@ div .h-t {
         width: 110px;
         height: 30px;
     }
+
     .pricing-card a.btn_hover1 {
         font-size: 9px;
         white-space: nowrap;
 
     }
 
-    .pricing-card div.pr-cd{
+    .pricing-card div.pr-cd {
         width: 180px;
         height: 300px !important;
         padding: 50px;
@@ -4072,7 +4165,7 @@ div .h-t {
         background-color: #4e1451;
         transition: all 0.8s ease;
     }
-    
+
 }
 
 /* 2.1 End of Priicing Section */
@@ -4223,7 +4316,7 @@ div .h-t {
         /* padding: 120px 0; */
         z-index: 2;
         /* background: #150725; */
-        
+
     }
 
     .faq::before {
@@ -4235,7 +4328,7 @@ div .h-t {
         top: 0;
         left: 0;
         opacity: 0.1;
-        
+
     }
 
     .faq span {
@@ -4249,7 +4342,7 @@ div .h-t {
     }
 
     div.flexx {
-        display: block;
+        flex-direction: column !important;
     }
 
     .faq-padd {
@@ -4282,11 +4375,11 @@ div .h-t {
         text-align: center !important;
     }
 
-    .faq-padd2 div.accordion{
+    .faq-padd2 div.accordion {
         position: relative;
         justify-content: center !important;
         align-items: center !important;
-        left: 100px;
+        /* left: 100px; */
     }
 
     .accordion .accordion-item {
@@ -4430,11 +4523,15 @@ div.blog-card {
         text-align: center !important;
     }
 
-    .blg-padd {
+    .blog div.blg-padd {
         padding: 0 !important;
         margin: 0 !important;
         position: relative;
-        left: 120px;
+        /* left: 120px; */
+        width: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
     }
 
     .blg-padd .btn_hover2 {
@@ -4447,8 +4544,9 @@ div.blog-card {
         font-size: 12px;
     }
 
-    .blog-cards {
-        display: block !important;
+    div.blog-cards {
+        flex-direction: column !important;
+        width: 100% !important;
     }
 
     div.blog-cards .blog-card {
@@ -4459,6 +4557,53 @@ div.blog-card {
     div.blog-cards .blog-card .blg-h4 {
         margin: 10px 0px 18px 0px;
         padding: 0 !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 844px) {
+    .blog-card h4 {
+        color: #d3c9c1;
+        margin: 18px 0;
+        padding: 0;
+        font-size: 21px;
+    }
+    div.blg-wd p {
+        width: 100% !important;
+        padding: 0 100px 0 0;
+    }
+
+    div.blg-padd a.btn_hover2{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 845px) and (max-width: 900px) {
+
+    div.blg-wd p {
+        width: 100% !important;
+        padding: 0 100px 0 0;
+    }
+    .blog-card h4 {
+        color: #d3c9c1;
+        margin: 18px 0;
+        padding: 0 30px 0 0;
+        font-size: 19px;
+    }
+
+    .card-body a {
+        padding: 0 0 11px !important;
+        border-bottom: 2px solid #ff8c4b;
+        letter-spacing: 2px;
+        background: linear-gradient(66.75deg, #f54a48 0.87%, #fa982f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1024px) {
+    div.blg-wd p {
+        width: 100% !important;
+        padding: 0 100px 0 0;
     }
 }
 
