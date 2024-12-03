@@ -550,7 +550,95 @@ div.cntct-left-side {
         color: #ffffff;
         box-shadow: 0 0 28px 3px rgb(223, 44, 143);
     }
+
 }
+
+    @media (min-width: 601px) and (max-width: 1024px){
+        aside.sidepanel {
+            z-index: 111111111111;
+        }
+    
+        aside.sidepanel div.side-menuss ul li .nav-link1 {
+            color: #ebd9f8;
+        }
+    
+        div.cntct-left-side {
+            display: block;
+        }
+    
+        div.cntct-left-side h4 {
+            color: #ebd9f8;
+        }
+    
+        ul.right-details li a {
+            color: #ebd9f8;
+        }
+    
+        .sidepanel div.ab-left {
+            display: block;
+        }
+    
+    
+        .sidepanel div.ab-left .rside-png img {
+            position: relative;
+            height: 250px;
+            width: 250px;
+            padding: 10px;
+        }
+    
+        .sidepanel div.ab-left div.myself figure {
+            width: fit-content;
+            clip-path: circle(45% at 50% 50%);
+            transition: all 0.8s ease;
+    
+        }
+    
+        .sidepanel div.ab-left div.myself figure:hover {
+            transform: scale(1.05);
+            transition: all 0.8s ease;
+        }
+    
+        .sidepanel div.ab-left .ab-ba {
+            color: #ebd9f8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: "Barlow", sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+    
+        .sidepanel div.ab-left .ab-ba:hover {
+            font-weight: 1000;
+            color: #fefbff;
+            transition: all 0.4s ease;
+        }
+    
+        .sidepanel div.ab-left .ab-ba1 {
+            color: #ebd9f8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: "Barlow", sans-serif;
+            font-weight: 600;
+            /* transition: all 0.8s ease;  */
+        }
+    
+        .sidepanel div.ab-left .rside_brands {
+            background-color: #5e3671;
+            padding: 15px 0;
+            border-radius: 50px;
+        }
+    
+        .sidepanel div.ab-left span.rside_brands a {
+            color: #ebd9f8;
+        }
+    
+        .sidepanel div.ab-left span.rside_brands a:hover {
+            color: #ffffff;
+            box-shadow: 0 0 28px 3px rgb(223, 44, 143);
+        }
+    }
+
 
 /* -----End AB Responsive------ */
 
