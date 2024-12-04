@@ -50,11 +50,12 @@ function closeRside() {
 //searchbar
 //open search bar
 function open_search() {
-    'usse strict';
+    'use strict';
     const searchpanel = document.getElementById('search-bar');
     if (searchpanel) {
         searchpanel.style.height = '100vh';
-        searchpanel.style.border = '0';
+        searchpanel.style.borderTopLeftRadius = '0';
+        searchpanel.style.borderTopRightRadius = '0';
     }
 
     else {
@@ -63,7 +64,7 @@ function open_search() {
 }
 
 function close_search() {
-    'usse strict';
+    'use strict';
     const searchpanel = document.getElementById('search-bar');
     if (searchpanel) {
         searchpanel.style.height = '0%';
