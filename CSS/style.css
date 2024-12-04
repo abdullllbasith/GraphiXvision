@@ -1223,6 +1223,10 @@ div hr.ab-hr1 {
 
 /* =======  1.4 client Section ======== */
 
+.client div.container{
+    /* padding: 0 50px 0 50px; */
+}
+
 .client {
     background-color: #150725;
     padding: 150px 0;
