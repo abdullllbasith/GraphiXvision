@@ -206,7 +206,7 @@ html {
 /* ---------------- 1.0 Header section -------------------- */
 
 .header-index {
-    background-image: url('../Images/bg/hero_bg.png');
+    background-image: url('../Assets/bg/hero_bg.png');
     background-position: center center;
     background-size: cover;
 
@@ -936,7 +936,7 @@ div hr.ab-hr1 {
 
 
 .hero {
-    background: url('../Images/bg/hero.png');
+    background: url('../Assets/bg/hero.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1338,7 +1338,7 @@ div hr.ab-hr1 {
 
 .about-imgs {
     position: relative;
-    background-image: url("../Images/bg/about-bg.png");
+    background-image: url("../Assets/bg/about-bg.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1846,7 +1846,7 @@ div hr.ab-hr1 {
 /* Gallery */
 
 .gallery {
-    background-image: url('../Images/bg/gallary-bg.png');
+    background-image: url('../Assets/bg/gallary-bg.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-bottom: 120px;
@@ -2335,7 +2335,7 @@ div .ex-h4 h4 {
 }
 
 .experience {
-    background-image: url('../Images/bg/experience_bg.jpg');
+    background-image: url('../Assets/bg/experience_bg.jpg');
     background-size: cover;
     background-position: center center;
     padding: 120px 0;
@@ -2348,7 +2348,7 @@ div .ex-h4 h4 {
     position: absolute;
     content: '';
     top: 26rem;
-    background-image: url('../Images/bg/experience_cercle.png');
+    background-image: url('../Assets/bg/experience_cercle.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2832,7 +2832,7 @@ div .ex-h4 h4 {
 }
 
 .work {
-    background-image: url('../Images/bg/work-bg.jpg');
+    background-image: url('../Assets/bg/work-bg.jpg');
     background-size: cover;
     background-position: center center;
     padding: 120px 0;
@@ -2862,7 +2862,7 @@ div .ex-h4 h4 {
 }
 
 .work-line {
-    background-image: url('../Images/bg/work-line.png');
+    background-image: url('../Assets/bg/work-line.png');
     background-size: 100% 100%;
     background-position: center;
     min-height: 242px;
@@ -2982,7 +2982,7 @@ div .ex-h4 h4 {
     }
 
     .work-line {
-        background-image: url('../Images/bg/work-line.png');
+        background-image: url('../Assets/bg/work-line.png');
         background-size: 100% 100%;
         background-position: center;
         min-height: 210px;
@@ -3089,7 +3089,7 @@ div .ex-h4 h4 {
     }
 
     .work-line {
-        background-image: url('../Images/bg/work-line.png');
+        background-image: url('../Assets/bg/work-line.png');
         background-size: 100% 100%;
         background-position: center;
         min-height: 210px;
@@ -3442,7 +3442,7 @@ div .ex-h4 h4 {
 
 
 .team {
-    background-image: url('../Images/bg/experience_bg.jpg');
+    background-image: url('../Assets/bg/experience_bg.jpg');
     background-size: cover;
     background-position: center center;
     padding: 120px 0 0 0;
@@ -3923,7 +3923,7 @@ div .h-t {
 
 .pricing {
     padding: 120px 0;
-    background-image: url('../Images/bg/pricing-bg.png');
+    background-image: url('../Assets/bg/pricing-bg.png');
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -4305,7 +4305,7 @@ div .h-t {
 
 .faq {
     position: relative;
-    background-image: url('../Images/bg/faq-bg1.png');
+    background-image: url('../Assets/bg/faq-bg1.png');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -4401,7 +4401,7 @@ div .h-t {
 @media (max-width: 600px) {
     .faq {
         position: relative;
-        background-image: url('../Images/bg/faq-bg1.png');
+        background-image: url('../Assets/bg/faq-bg1.png');
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
