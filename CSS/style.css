@@ -1163,19 +1163,15 @@ div hr.ab-hr1 {
 @media (max-width: 600px) {
     .header-card {
         flex: 1 1 100%;
-        /* Full width */
         max-width: 100%;
-        /* Override max width */
     }
 
     .header-card div {
         padding: 20px 15px;
-        /* Reduce padding */
     }
 
     .header-card h4 {
         font-size: 14px;
-        /* Smaller font size */
     }
 }
 
@@ -1223,7 +1219,7 @@ div hr.ab-hr1 {
 
 /* =======  1.4 client Section ======== */
 
-.client div.container{
+.client div.container {
     /* padding: 0 50px 0 50px; */
 }
 
@@ -4705,7 +4701,199 @@ div.blog-card {
 
 /* 2.3 End of Blogs Section */
 
-/* 2.4 footer Section */
+/* 2.4 Contact Section */
+
+.frm-h1 {
+    font-size: 50px;
+}
+
+.frm-h2 {
+    font-size: 40px;
+}
+
+.frm-h3 {
+    font-size: 25px;
+}
+
+.frm-h4 {
+    font-size: 23px;
+}
+
+.frm-h5 {
+    font-size: 20px;
+}
+
+.frm-h6 {
+    font-size: 16px;
+}
+
+div.pie {
+    padding-left: 0;
+}
+
+div.pie p {
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.contact-form {
+    background: #150725;
+    padding: 180px 0;
+}
+
+.contact-form h5 {
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.contact-form h2 {
+    color: #fff;
+}
+
+.contact-form p {
+    color: #d3c9c1;
+    padding: 0 296px 0 0;
+}
+
+.contact-form .frm-hr1 {
+    opacity: 1.25;
+    height: 1px;
+    color: #b520a3;
+    width: 60px;
+    border: 1px solid;
+}
+
+.cn-form label {
+    font-size: 16px;
+    color: #fff;
+}
+
+div.cn-form {
+    padding: 30px 40px;
+    border-radius: 20px;
+    border: 1px solid #6d2f8a;
+    /* background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%); */
+    background: #381d4f4a;
+    width: 50%;
+    margin: auto;
+}
+
+.cn-form form input,
+.cn-form form textarea {
+    border-radius: 10px;
+    background: #3d1b4d;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+}
+
+.cn-form {
+    justify-content: center;
+    align-items: center;
+}
+
+.cn-form button {
+    width: 100%;
+    height: 50px;
+}
+
+.cn-form .dotlottie-player {
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+@media (max-width: 400px) {
+    div.cont-cont {
+        flex-direction: column;
+    }
+
+    .frm-h2 {
+        font-size: 27px;
+    }
+
+    .cn-form .dotlottie-player {
+        margin-bottom: 50px;
+        display: none;
+    }
+
+    div.cn-form {
+        padding: 30px 30px;
+        border-radius: 20px;
+        border: 1px solid #6d2f8a;
+        /* background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%); */
+        background: #381d4f4a;
+        width: 80%;
+        display: block;
+    }
+}
+
+@media (min-width: 401px) and (max-width:600px) {
+    div.cont-cont {
+        flex-direction: column;
+    }
+
+    .frm-h2 {
+        font-size: 27px;
+    }
+
+    .cn-form .dotlottie-player {
+        margin-bottom: 50px;
+        display: none;
+    }
+
+    div.cn-form {
+        padding: 30px 30px;
+        border-radius: 20px;
+        border: 1px solid #6d2f8a;
+        /* background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%); */
+        background: #381d4f4a;
+        width: 70%;
+        display: block;
+        /* justify-content: center !important; */
+
+    }
+}
+
+@media (min-width:601px) and (max-width:1024px) {
+    div.cont-cont {
+        flex-direction: column;
+    }
+
+    .frm-h2 {
+        font-size: 27px;
+    }
+
+    .cn-form .dotlottie-player {
+        margin-bottom: 50px;
+        display: none;
+    }
+
+    div.cn-form {
+        padding: 30px 30px;
+        border-radius: 20px;
+        border: 1px solid #6d2f8a;
+        /* background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%); */
+        background: #381d4f4a;
+        width: 50%;
+        display: block;
+
+    }
+}
+
+/* 2.4 End of Contact Section */
+/* 2.5 footer Section */
 
 .foot-h1 {
     font-size: 50px;
@@ -5125,6 +5313,9 @@ footer form button:hover {
         font-size: 13px;
     }
 }
+
+/* 2.5 End of footer section */
+
 
 /* End of site wrapper */
 

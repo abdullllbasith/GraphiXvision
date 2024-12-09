@@ -73,7 +73,7 @@
                             </ul>
                         </div>
                         <div class="nav-right flex">
-                            <p>Call Us: <a href="tel:+94779946484"><span>+94 779 946 484</span></a></p>
+                            <p>Call Us: <a href="tel:+94779946484"><span>+94779946484</span></a></p>
                             <!--header buttons-->
                             <i onclick="open_search()" class="fa-solid fa-magnifying-glass"></i>
                             <i onclick="openRside()" class="fa-solid fa-bars"></i>
@@ -1288,6 +1288,47 @@
         </section>
         <!-- ==========  2.4 End of Blogs Section ===================-->
 
+        <!-- ==========  2.5 form Section ===================-->
+        <section class="contact-form" id="cnt-form">
+            <div class="container cont-cont">
+                <div class="flex-center">
+                    <div class="w-66 pie" data-aos="fade-down">
+                        <div class="flex gap-1 blg-hr flex-center">
+                            <hr class="frm-hr1">
+                            <h5 class="frm-h5">CONTACT</h5>
+                            <hr class="frm-hr1">
+                        </div>
+                        <div class="flex-center">
+                            <h2 class="mt-1 frm-h2">Get in Touch</h2>
+                        </div>
+                        <p class="mt-1 mb-15">Have questions, feedback, or a project idea? Fill out the form below, and
+                            we’ll get back to you as soon as possible. We’d love to hear from you!
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-sb cn-form mt-1" data-aos="fade-up">
+                    <form action="/submit" method="post">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required
+                            class="mt-1"><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required
+                            class="mt-1"><br><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message"
+                            class="mt-1"></textarea><br><br>
+                        <button type="submit" class="btn_hover2">Submit</button>
+                    </form>
+                    <dotlottie-player src="https://lottie.host/ce1c6075-dfd5-4e61-b640-ff448962a46c/gPtfVZrJG1.lottie"
+                        background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay
+                        class="dotlottie-player"></dotlottie-player>
+
+                </div>
+            </div>
+        </section>
+
         <!-- ==========  2.5 Footer Section ===================-->
         <footer id="footer_main">
             <div class="container">
@@ -1416,6 +1457,10 @@
 
     <!-- my custom javscript -->
     <script src="./JS/script.js"></script>
+
+
+    <!-- LottieFiles SVG cdn -->
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 
 
 
