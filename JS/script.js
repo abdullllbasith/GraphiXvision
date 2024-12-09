@@ -293,7 +293,7 @@ const footerMessage = document.getElementById('footer-message')
 
 fom.addEventListener('submit', (event) => {
     event.preventDefault();
-    footerMessage.innerHTML = 'e-mail submitted Successfully!'
+    footerMessage.innerHTML = 'Email Submitted Successfully!'
     footerMessage.style.display = 'flex';
     fom.reset();
     setTimeout(() => {
